@@ -6,14 +6,14 @@
    tags: provisioning
 
    vars:
-     keypair: mySep22Key
+     keypair: ubuntu_keypair
      instance_type: t2.micro
-     image: ami-0ee23bfc74a881de5
+     image: ami-0b828c1c5ac3f13ee
      wait: yes
      group: webserver
      count: 1
-     region: us-east-1
-     security_group: ec2-security-group
+     region: ap-northeast-1
+     security_group: launch-wizard-17
    
    tasks:
 
